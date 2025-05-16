@@ -110,7 +110,7 @@ function getServer(): McpServer {
   // ✅ PROMPT registration — allows prompt-based invocation
   server.prompt(
     "weather",
-    "Get the Tridion sites for a city",
+    "Get current weather for the city",
     {
       city: z.string(),
     },
