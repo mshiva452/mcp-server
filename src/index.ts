@@ -59,7 +59,7 @@ server.tool(
 // ✅ PROMPT registration — allows prompt-based invocation
 server.prompt(
   "weather",
-  "Get the Tridion sites for a city",
+  "Get weather for the city",
   {
     city: z.string(),
   },
